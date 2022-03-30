@@ -175,15 +175,17 @@
 
 ### 規模化建設
 * 緩解策略 (Mitigation Strategy)
-1. 從容退化 (Graceful Degradation)
-2. 請求頻率限制 (Throttle)
-3. 背壓 (Backpressure)
-4. 負載轉移 (LoadShifting)
-5. 斷路器 (Circuit Breaker)
+    1. 從容退化 (Graceful Degradation)
+    2. 請求頻率限制 (Throttle)
+    3. 背壓 (Backpressure)
+    4. 負載轉移 (LoadShifting)
+    5. 斷路器 (Circuit Breaker)
 * 遷移政策 (Migration Strategy)
 * 水平 vs 垂直擴展 (Horizontal vs Vertical Scalling)
 * 以可觀性 (Observability)為前提進行建設 
-    >指標紀錄以及其他可觀測的項目。可以在出錯時幫助你除錯和解決問題。
+
+    > 指標紀錄以及其他可觀測的項目。可以在出錯時幫助你除錯和解決問題。
+
 * 了解差異 - 儀表 (Instrumentation)
 * 了解差異 - 監測 (Manitoring)
 * 了解差異 - 遙測(Telemetry)
